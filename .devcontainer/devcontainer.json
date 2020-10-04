@@ -8,16 +8,15 @@
     ],
 
     "settings": {
-		"lldb.adapterType": "bundled",
-		"lldb.executable": "/usr/bin/lldb",
-		"terminal.integrated.shell.linux": "/bin/bash"
-	},
+        "lldb.library": "/usr/lib/liblldb.so",
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
 
     // Uncomment the next line if you want to publish any ports.
-	// "appPort": [],
+    // "appPort": [],
 
     "extensions": [
-		"pvasek.sourcekit-lsp--dev-unofficial",
-		"vadimcn.vscode-lldb"
-	]
+        "pvasek.sourcekit-lsp--dev-unofficial",
+        "vadimcn.vscode-lldb"
+    ]
 }
